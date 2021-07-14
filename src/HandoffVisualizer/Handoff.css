@@ -1,0 +1,209 @@
+.board {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #34314c;
+}
+
+.roww {
+    display: flex;
+    flex-direction: row;
+}
+
+.datas {
+    border: 2px solid darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.firstRow {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+body {
+    background-color: #ececec;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.plot-container {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+    top: 100px;
+}
+
+.plot-container>div {
+    margin: 10px;
+}
+
+#logo {
+    width: 35px;
+    height: 35px;
+}
+
+#dropdown {
+    position: absolute;
+    margin-top: 40px;
+    left: 85px;
+}
+
+.maincontent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 62px;
+    width: 100%;
+}
+
+.footer {
+    height: 50px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+.simulation {
+    margin: 0px 6vw 0px 6vw;
+}
+
+.button {
+    background-color: #00007D;
+    border: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 10.5vw;
+    width: 10.5vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 1vw 2vw 0 2vw;
+    border-radius: 100%;
+    font-size: 2vw;
+    font-weight: bold;
+    cursor: pointer;
+    animation: shadow-pulse 1.5s infinite;
+}
+
+.button:hover {
+    background-color: #2728FF;
+    transform: scale(1.1);
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+@keyframes shadow-pulse {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+
+    100% {
+        box-shadow: 0 0 0 1.5vw rgba(0, 0, 0, 0);
+    }
+}
+
+.dropdown .btn {
+    margin-top: 0.8vw;
+    border-width: 0;
+    background: #274455;
+    color: #fff;
+}
+
+.dropdown .btn:hover {
+    background: #3d6379;
+    color: #fff;
+    border-width: 0;
+    transform: scale(1.05);
+}
+
+.dropdown .btn:focus {
+    border-width: 0;
+    background: #401EA4;
+}
+
+.dropdown .btn:active {
+    border-width: 0px;
+    background: #401EA4;
+}
+
+.nav-link {
+    color: #ddd !important;
+    font-size: 18px !important;
+}
+
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.intro {
+    color: darkolivegreen;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1vw;
+    font-weight: 700;
+    padding: 1px 25px;
+}
+
+.goal {
+    font-size: 1.6vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.goalcontainer {
+    margin-top: 0.5vw;
+    border: 2px solid darkolivegreen;
+    border-radius: 10px;
+}
+
+.intropower {
+    color: #fc913a;
+}
+
+.introhandoffs {
+    color: #ff4e50;
+}
+
+.descontainer {
+    width: 16.4%;
+}
+
+#dropdown-basic {
+    width: 13vw;
+    height: 3vw;
+    letter-spacing: 0.15vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+#dropdownitem {
+    width: 20vw !important;
+}
+
+
+.navbar-nav>li {
+    font-size: 1.1vw;
+}
+
+.dropdown-menu {
+    font-size: 1.1vw;
+}

@@ -1,0 +1,32 @@
+.data {
+    padding: 5px 20px;
+    font-size: 2.4vw;
+    border-radius: 25%;
+    text-align: center;
+}
+
+.word {
+    color: #274455;
+    font-size: 1vw;
+}
+
+.cars {
+    color: #ffc400;
+    font-weight: bold;
+}
+
+.handoffs {
+    color: #fc913a;
+    font-weight: bold;
+}
+
+.power {
+    color: #ff4e50;
+    font-weight: bold;
+}
+
+.plotlycontainer {
+    width: 18vw;
+    height: 8vw;
+    margin: 5px 0;
+}
